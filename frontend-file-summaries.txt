@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component managing game state, session handling, and rendering either the main menu or the 3D game scene with UI overlay.",
+  "frontend/src/components/MainMenu.tsx": "Landing page component with session creation/joining functionality, Internet Identity login, and styled game branding.",
+  "frontend/src/components/GameScene.tsx": "Core 3D game scene component managing player physics, camera controls, movement, shooting mechanics, and rendering all game objects.",
+  "frontend/src/components/GameUI.tsx": "In-game HUD overlay displaying health bar with custom gradient styling, ammo count, weapon info, crosshair, controls guide, and death/respawn screen.",
+  "frontend/src/components/Arena.tsx": "3D arena environment component with ground plane, boundary walls, grid pattern, and five cover objects for tactical gameplay, all physics hooks called at top level.",
+  "frontend/src/components/Player.tsx": "3D player character representation with body, head, arms, and floating health bar above the player.",
+  "frontend/src/components/WeaponPickup.tsx": "Animated 3D weapon pickup object with rotating model, glow effect, and color-coded by weapon type.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including session management, player state, position updates, shooting, weapon pickups, and respawning.",
+  "frontend/src/hooks/useGameState.ts": "Custom hook managing local game state, multiplayer synchronization, player actions, and backend communication with proper null checks for TypeScript safety.",
+  "frontend/src/components/ui/progress.tsx": "Standard Radix UI Progress component wrapper with Tailwind styling for displaying progress bars.",
+  "frontend/src/index.css": "Global styles with dark theme color system optimized for gaming aesthetics using OKLCH colors with orange/red accent palette."
+}
